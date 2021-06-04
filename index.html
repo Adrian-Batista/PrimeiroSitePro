@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Programação para Internet I</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Programação para Internet I</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="introduction.html">Introdução à HTML</a></li>
+        <li><a href="hyperlinks.html">Hiperlinks</a></li>
+        <li><a href="#">Multimídia e incorporação</a></li>
+        <li><a href="tables.html">Tabelas</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <article>
+        <h2>Multimídia e incorporação</h2>
+
+        <h3>Imagens</h1>
+
+        <p>Incorporando uma imagem:</p>
+        
+        <figure>
+          <img src="images/dinosaur.jpg"
+          alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
+          width="400"
+          height="341"
+          title="A T-Rex on display in the Manchester University Museum">
+          <figcaption>Título da figura</figcaption>
+         </figure>
+
+        <p>Imagem como fundo de um elemento:</p>
+        
+        <p id="img-fundo">Este elemento é um parágrafo. </p>
+
+        <h3>Videos</h1>
+
+        <p>Incorporando um video:</p>
+
+        <video src="videos/rabbit320.webm" controls>
+          <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p>
+        </video>
+
+        <p>Com os atributos autoplay e muted:</p>
+
+        <video src="videos/rabbit320.webm" autoplay muted>
+          <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p>
+        </video>
+
+      </article>
+
+      <aside>
+        <h3>Informações adicionais</h3>
+        <p>Esta página está utilizando os elementos semânticos do padrão HTML 5,
+          para atribuir significado às seções da página.
+        </p>
+      </aside>
+
+    </main>
+
+    <footer>
+      <p> Referências: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" 
+        target="_blank">Mozilla MDN Web Docs</a></p>
+    </footer>
+
+  </body>
+</html>
