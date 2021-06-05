@@ -1,16 +1,16 @@
 html {
     font-size: 10px;
-    background-color: #a9a9a9;
+    background-image: url("imagens/fundo.jpg");
   }
   
   body {
-    width: 70%;
+    width: 90%;
     min-width: 800px;
     margin: 0 auto;
   }
   
   header, nav, main, article, aside, footer {
-    background-color: rgba(86, 138, 146, 0.5);
+    background-color:rgb(255, 255, 255);
     padding: 1%;
   }
   
@@ -18,8 +18,7 @@ html {
   
   h1, h2, h3 {
     font-family: 'Cinzel Decorative', cursive;
-    color: #2a2a2a;
-    text-align: center;
+    text-align: center
   }
   
   p, li {
@@ -31,8 +30,7 @@ html {
   
   h1 {
     font-size: 4rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 10px black;
+    text-transform: uppercase
   }
   
   h2 {
